@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Keep Everything Safe</string>
+    <string name="l_o_g_i_n">L O G I N</string>
+    <string name="r_e_g_i_s_t_e_r">R E G I S T E R</string>
+    <string name="title">Title:  </string>
+    <string name="email">Email: </string>
+    <string name="password">Password: HIDDEN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="if_you_have_not_account_register_here">If you have not account, register here</string>
+    <string name="l_o_g_i_nn">L O G I N</string>
+    <string name="use_finger_print_to_login">Use Finger Print to Login</string>
+</resources>

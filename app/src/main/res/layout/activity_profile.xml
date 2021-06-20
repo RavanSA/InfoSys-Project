@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="horizontal"
+    android:background="@color/browser_actions_bg_grey"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="20dp"
+        android:background="#192c3a"
+        >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Keep Everything Safe"
+           android:textColor="@color/white"
+           android:textSize="30dp"
+           android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_refresh_24"
+            android:layout_marginLeft="330dp"
+            android:id="@+id/refresh"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="20dp"
+        android:background="#192c3a"
+        >
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/list_of_pass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-390dp"
+        android:layout_marginTop="95dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addpassword"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginTop="630dp"
+        app:backgroundTint="#4696ec"
+
+        app:fabSize="normal"
+
+        android:scaleType="center"
+        app:srcCompat="@drawable/ic_baseline_post_add_24"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_marginStart="-70dp" />
+
+
+</LinearLayout>

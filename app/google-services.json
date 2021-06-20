@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1074369077834",
+    "project_id": "keep-everything-safe",
+    "storage_bucket": "keep-everything-safe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074369077834:android:a74c53d565d52d3e0e3cb3",
+        "android_client_info": {
+          "package_name": "com.example.keepeverythingsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074369077834-f528kr7avd2b6tvehgerad79isnb79m5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.keepeverythingsafe",
+            "certificate_hash": "dc645ad3ae407d12e80a8c8faf0773a4897d0830"
+          }
+        },
+        {
+          "client_id": "1074369077834-ij9kdicumu76qd4k80219vl6hels90sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKnnTLU9XCkjJ5gB2N46nbumbIwXSzb2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074369077834-ij9kdicumu76qd4k80219vl6hels90sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
